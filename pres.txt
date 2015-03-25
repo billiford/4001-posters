@@ -1,0 +1,61 @@
+Does electronic	voting enable or inhibit effective democratic processes?
+
+Thesis: /* electronic voting not only helps enable an effective democratic process, but strengthens it. */
+
+If implemented correctly, e-voting can not only help enable an effective democratic process, but strengthen it. However,
+it does have vulnerabilities which could, in theory, completely dismantle the integrity of democracy. Analysis of these vulnerabilities
+is necessary for implementing an electronic system that works towards an effective democratic process.
+
+First, democracy is defined as "A system of government in which power is vested in the people, who rule either directly
+or through freely elected representatives." Investing power in the people requires the people to trust the voting system and be able to keep
+the system accountable. In addition, the voting system must be impervious to outside threats for the purpose of voting integrity.
+
+A democratic e-voting system must take several principles into account in order to be considered
+effective: 
+
+Trust and transparency - A traditional voting scheme attains transparency due to the average voter having an understanding of how the system
+works. Unfortunately, for e-voting, this transparency does not exist - the average voter will probably not understand the full process
+of the voting system. The e-voting system must take into account security, encryption, and software that is not open-source. Because
+this software might not be open-source and is most likely too complicated or impossible for the average voter to understand,
+e-voting lacks transparency. A simple fix to this is to require all e-voting software to be open-source to maintain accountability, however
+in some governments, the aspect of open-source might never be implemented, so a voting system must take into account, in this situation,
+its users
+trust.
+
+Without transparency, e-voting must excel in the aspect of trust - that is, trust in technology. Because users cannot see the source code in
+some situations,
+measures must be taken so that users are given a sense of assurance that their vote is accounted for and the system is not tampered with.
+
+Verifiability - a voter-verified audit trail is a central and necessary aspect of e-voting. Once a vote is cast, the voter must be able
+to ensure - perhaps through online verifiability - that their vote was received and it is accurate. This maintains accountability and 
+trustworthiness of the system and eliminates tampering.
+
+In addition, voting results should be made available to institutions, such as election officials, parties, and independent observers
+(such as a news channel). Making the results public, without tying together specific votes to voters helps maintain verifiability
+and trustworthiness.
+
+Reliability and security - In my opinion, the principle of reliability and security is the most important. As mentioned in the thesis,
+incorrect security implementation could result in very flawed voting results which ultimately
+derail the integrity of democracy, due to a system that is vulnerable to attacks. Without strong encryption, proper security and 
+isolation of source-code, an attacker could create an advanced persistent threat which modifies the votes cast or gathers and releases
+confidential information.
+
+These threats are especially important to consider, given that the nature of voting is political. This seems self-explanatory, but it should
+be noted that digital attacks, whether they be DDOS attacks or the hacking of personal accounts and data, are often driven by attackers
+with political motives.
+
+In the result of a successful attack, the idea of democracy being "giving power to the people" is completely abused and destroyed as 
+an attacker or a group of attackers could modify vote results to their liking.
+
+In closing, David Bismark's presentation on E-Voting Without Fraud seems (to me at least) to address these issues mentioned with e-voting
+and provide a consistent, reliable, and secure system through which to vote.
+
+Provide an encrypted voting ballot where the officials being voted for are present in a random order on the ballot. After casting a vote,
+the voter removes the portion of the ballot that contains the official's names and shreds it. Their votes are still present on the
+right half of the ballot - but a person viewing this portion of the ballot could not determine who the voter voted for as the names of
+the officials have been removed. For security, their votes are then scanned using an encrypted bar code - which I'm assuming can keep
+track of who the voter actually voted for while maintaining anonymity of the voter. For verifiability, the voter keeps the right portion
+of their ballot so they can verify (perhaps online) that their vote was received and is accurate.
+
+With correct implementation of all of these principles - and perhaps the help of some skilled programmers - e-voting can enable and strengthen
+the democratic system through the avoidance of fraud, allowing for a trustworthy and accurate voting system that maintains anonymity.
