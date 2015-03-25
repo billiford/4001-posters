@@ -1,8 +1,4 @@
-Does electronic	voting enable or inhibit effective democratic processes?
-
-Thesis: /* electronic voting not only helps enable an effective democratic process, but strengthens it. */
-
-If implemented correctly, e-voting can not only help enable an effective democratic process, but strengthen it. However,
+Thesis: If implemented correctly, e-voting can not only help enable an effective democratic process, but strengthen it. However,
 it does have vulnerabilities which could, in theory, completely dismantle the integrity of democracy. Analysis of these vulnerabilities
 is necessary for implementing an electronic system that works towards an effective democratic process.
 
@@ -10,37 +6,36 @@ First, democracy is defined as "A system of government in which power is vested 
 or through freely elected representatives." Investing power in the people requires the people to trust the voting system and be able to keep
 the system accountable. In addition, the voting system must be impervious to outside threats for the purpose of voting integrity.
 
-A democratic e-voting system must take several principles into account in order to be considered
-effective: 
+A democratic e-voting system must take several principles into account in order to be considered effective: 
 
 Trust and transparency - A traditional voting scheme attains transparency due to the average voter having an understanding of how the system
 works. Unfortunately, for e-voting, this transparency does not exist - the average voter will probably not understand the full process
-of the voting system. The e-voting system must take into account security, encryption, and software that is not open-source. Because
+of the voting system. The e-voting system must take into account security, encryption, and software that might not be open-source. Because
 this software might not be open-source and is most likely too complicated or impossible for the average voter to understand,
-e-voting lacks transparency. A simple fix to this is to require all e-voting software to be open-source to maintain accountability, however
+e-voting lacks transparency. A simple fix for this is to require all e-voting software to be open-source to maintain accountability. However,
 in some governments, the aspect of open-source might never be implemented, so a voting system must take into account, in this situation,
-its users
-trust.
+its users trust.
 
 Without transparency, e-voting must excel in the aspect of trust - that is, trust in technology. Because users cannot see the source code in
-some situations,
-measures must be taken so that users are given a sense of assurance that their vote is accounted for and the system is not tampered with.
+some situations, measures must be taken so that users are given a sense of assurance that their vote is accounted for and the system is not
+tampered with.
 
 Verifiability - a voter-verified audit trail is a central and necessary aspect of e-voting. Once a vote is cast, the voter must be able
 to ensure - perhaps through online verifiability - that their vote was received and it is accurate. This maintains accountability and 
 trustworthiness of the system and eliminates tampering.
 
 In addition, voting results should be made available to institutions, such as election officials, parties, and independent observers
-(such as a news channel). Making the results public, without tying together specific votes to voters helps maintain verifiability
+(such as a news channel). Making the results public, without tying together specific votes to voters, helps maintain verifiability
 and trustworthiness.
 
 Reliability and security - In my opinion, the principle of reliability and security is the most important. As mentioned in the thesis,
 incorrect security implementation could result in very flawed voting results which ultimately
 derail the integrity of democracy, due to a system that is vulnerable to attacks. Without strong encryption, proper security and 
 isolation of source-code, an attacker could create an advanced persistent threat which modifies the votes cast or gathers and releases
-confidential information.
+confidential information. (NOTE - considering the e-voting techniques brought up in class, an attackers attempt to sway a vote might not
+be possible, but the release of confidential information is still a security issue to take into account.) 
 
-These threats are especially important to consider, given that the nature of voting is political. This seems self-explanatory, but it should
+These threats are especially important to consider given that the nature of voting is political. This seems self-explanatory, but it should
 be noted that digital attacks, whether they be DDOS attacks or the hacking of personal accounts and data, are often driven by attackers
 with political motives.
 
